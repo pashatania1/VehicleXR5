@@ -16,6 +16,22 @@ public class Vehicle {
         milesPerGallon = mpg;
     }
 
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public int getMilesPerGallon() {
+        return milesPerGallon;
+    }
+
+    public void setMilesPerGallon(int milesPerGallon) {
+        this.milesPerGallon = milesPerGallon;
+    }
+
     //Method Print
     public void print() {
         System.out.println("Make: " + make);

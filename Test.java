@@ -6,5 +6,10 @@ public class Test {
 
         Vehicle truck = new Vehicle("Hino", 50);
         truck.print();
+
+        Vehicle bus = new Vehicle();
+        bus.setMake("Mercedes Benz");
+        bus.setMilesPerGallon(30);
+        bus.print();
     }
 }
