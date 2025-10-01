@@ -11,5 +11,8 @@ public class Test {
         bus.setMake("Mercedes Benz");
         bus.setMilesPerGallon(30);
         bus.print();
+
+        Car sedan = new Car();
+        sedan.print();
     }
 }
